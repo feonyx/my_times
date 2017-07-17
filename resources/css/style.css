@@ -38,7 +38,6 @@ header {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-end;
-  flex-basis: 50%;
 }
 
 nav {
