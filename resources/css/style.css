@@ -15,6 +15,7 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
 }
 
 .logo {
@@ -64,6 +65,29 @@ div {
   border: 1px solid black;
 }
 
+.img-content {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.lead-story.img-content {
+  background-image: url(../images/img-story-main.png);
+}
+
+.fall-cancelled.img-content {
+  background-image: url(../images/img-story-2.png);
+}
+
+.research.img-content {
+  background-image: url(../images/img-story-3.png);
+}
+
+.cat-control.img-content {
+  background-image: url(..images/img-story-1.png);
+}
+
 div.main {
   display: flex;
   width: 1232px;
@@ -81,4 +105,18 @@ div.main {
 
 .column.small {
   width: 240px;
+}
+
+p.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.lead-story {
+  font-size: 40px;
+}
+
+.story-content h2 {
+  display: flex;
 }
