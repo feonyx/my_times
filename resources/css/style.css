@@ -2,6 +2,7 @@ body {
   font-family: Verdana;
 }
 
+/* header */
 header {
   display: flex;
   align-items: center;
@@ -56,5 +57,8 @@ nav a {
   color: black;
 }
 
-#nav-header {
+/* Body */
+
+div {
+  border: 1px solid black;
 }
