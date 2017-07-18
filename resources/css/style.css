@@ -61,10 +61,6 @@ nav a {
 
 /* Body */
 
-div {
-  border: 1px solid black;
-}
-
 .img-content {
   display: flex;
   font-family: Georgia;
@@ -73,6 +69,7 @@ div {
   text-align: center;
   color: white;
   height: 300px;
+  width: 300px;
 }
 .lead-story.img-content {
   background-image: url(../images/img-story-main.png);
@@ -135,8 +132,6 @@ p.narrative {
   width: 300px;
 }
 .stories.story-content {
-  display: flex;
-  flex-direction: column;
   height: 250px;
 }
 
@@ -154,4 +149,31 @@ span.bite {
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer .title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
 }
