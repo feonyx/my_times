@@ -105,6 +105,8 @@ div.main {
 
 .column.small {
   width: 240px;
+  display: flex;
+  flex-direction: column;
 }
 
 p.narrative {
@@ -117,6 +119,11 @@ p.narrative {
   font-size: 40px;
 }
 
-.story-content h2 {
+.stories {
   display: flex;
+  justify-content: space-between;
+}
+
+span.bite {
+  display: block;
 }
