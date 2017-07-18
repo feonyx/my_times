@@ -1,5 +1,5 @@
 body {
-  font-family: Verdana;
+  font-family: Georgia;
 }
 
 /* header */
@@ -70,10 +70,14 @@ div {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
+  text-align: center;
   color: white;
+  height: 300px;
 }
 .lead-story.img-content {
   background-image: url(../images/img-story-main.png);
+  font-size: 40px;
+  width: 630px;
 }
 
 .fall-cancelled.img-content {
@@ -85,7 +89,7 @@ div {
 }
 
 .cat-control.img-content {
-  background-image: url(..images/img-story-1.png);
+  background-image: url(../images/img-story-1.png);
 }
 
 div.main {
@@ -93,6 +97,12 @@ div.main {
   width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 120px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
 
 .column.large {
@@ -105,8 +115,6 @@ div.main {
 
 .column.small {
   width: 240px;
-  display: flex;
-  flex-direction: column;
 }
 
 p.narrative {
@@ -115,15 +123,35 @@ p.narrative {
   color: black;
 }
 
-.lead-story {
-  font-size: 40px;
-}
-
 .stories {
   display: flex;
   justify-content: space-between;
+  margin-top: 17px;
 }
 
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.stories.story-content {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+}
+
+.news-bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+}
 span.bite {
   display: block;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
 }
